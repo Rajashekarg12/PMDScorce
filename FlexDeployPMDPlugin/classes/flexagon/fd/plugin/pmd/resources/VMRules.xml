@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="quickstart" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+  <description>Quickstart configuration of PMD for VM. Includes the rules that are most likely to apply everywhere.</description>
+  <!-- All default VM rules deined by pmd  -->
+  <rule ref="category/vm/bestpractices.xml" message="Rules which enforce generally accepted best practices."></rule>
+  <rule ref="category/vm/design.xml" message="Rules that help you discover design issues."></rule>
+  <rule ref="category/vm/errorprone.xml" message="Rules to detect constructs that are either broken, extremely confusing or prone to runtime errors."></rule>
+</ruleset>
+

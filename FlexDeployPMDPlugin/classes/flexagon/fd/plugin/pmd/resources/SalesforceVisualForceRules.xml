@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="quickstart" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+  <description>Quickstart configuration of PMD for Salesforce VisualForce Rules. Includes the rules that are most likely to apply everywhere.</description>
+  <!-- All default Salesforce VisualForce Rules deined by pmd  -->
+  <rule ref="category/vf/security.xml" message="Rules that flag potential security flaws."></rule>
+</ruleset>
+
